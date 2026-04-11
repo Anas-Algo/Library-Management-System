@@ -5,5 +5,5 @@ def show_book():
         print("No book available")
     else:
         print("Available Books:")
-        for book,status in books.item():
-            print(f"{books} > {status}")
+        for book,status in books.items():
+            print(f"{book} > {status}")
