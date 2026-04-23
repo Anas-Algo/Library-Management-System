@@ -1,9 +1,12 @@
-# Data storage:
-
-# books  =['JAVA','PYTHON']
-# issued_books = ['C']
-
 books = {
-    "JAVA":"Available",
-    "PYTHON":"Available"
+    "JAVA": {
+        "status": "Available",
+        "student": "",
+        "days": 0
+    },
+    "PYTHON": {
+        "status": "Available",
+        "student": "",
+        "days": 0
+    }
 }

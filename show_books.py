@@ -1,9 +1,9 @@
 from utils import books
 
 def show_book():
-    if not books: 
-        print("No book available")
+    if not books:
+        print("No books available")
     else:
-        print("Available Books:")
-        for book,status in books.items():
-            print(f"{book} > {status}")
+        print("\nAvailable Books:")
+        for book, info in books.items():
+            print(f"{book} -> {info['status']}")
